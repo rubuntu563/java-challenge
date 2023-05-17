@@ -28,4 +28,4 @@ Explanation:
 The decimal number whose binary representation contains the most ones is 15 (1111 in binary), so it goes first (index = 0). Next is 7, with three ones in its binary representation.
 Then there are 2 numbers whose binary representation contains the same number of ones, these decimals are 5 and 3, both with 2 ones. In this case, the number 3 goes first (closer to index = 0) because its decimal representation is smaller (3 < 5).
 
-The final REST endpoint should return the final result of the processed list of integers.
+The final REST endpoint should return the result of the processed list of integers.
