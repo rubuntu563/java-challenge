@@ -29,3 +29,21 @@ The decimal number whose binary representation contains the most ones is 15 (111
 Then there are 2 numbers whose binary representation contains the same number of ones, these decimals are 5 and 3, both with 2 ones. In this case, the number 3 goes first (closer to index = 0) because its decimal representation is smaller (3 < 5).
 
 The final REST endpoint should return the result of the processed list of integers.
+
+### Start
+```
+mvn clean install
+mvn spring-boot:run
+```
+
+### Servers test
+To access to the database (H2) on dev mode:
+```
+open http://localhost:8080/h2-console
+```
+
+API Documentation (Swagger):
+```
+open http://localhost:8080/v3/api-docs
+open http://localhost:8080/swagger-ui.html
+```
